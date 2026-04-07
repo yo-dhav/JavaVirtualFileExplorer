@@ -1,5 +1,6 @@
 package com.esiea.pootd2;
 
+<<<<<<< HEAD
 import java.awt.Desktop;
 import java.net.URI;
 
@@ -38,4 +39,27 @@ public class ExplorerApp {
 	        System.out.println("Invalid interface specified. Please use 'cli' or 'web'.");
 	    }
 	}
+=======
+import com.esiea.pootd2.controllers.ExplorerController;
+import com.esiea.pootd2.interfaces.*;
+public class ExplorerApp {
+
+    public static void main(String[] args) {
+
+        ExplorerController controller = new ExplorerController();
+        controller.initialiseBaseArchitecture();
+    
+        if (args.length == 0) {
+            System.out.println("Please specify interface [cli or web]");
+        } else if (args[0].equalsIgnoreCase("cli")) {
+            TextInterface textInterface = new TextInterface(controller);
+            textInterface.run();
+        } else if (args[0].equalsIgnoreCase("web")) {
+            HttpInterface httpInterface = new HttpInterface(controller);
+            httpInterface.run();
+        } else {
+            System.out.println("Invalid interface specified. Please use 'cli' or 'web'.");
+        }
+    }
+>>>>>>> 4d4b529f48490387c9297c734afe4d3c76b1ab1a
 }

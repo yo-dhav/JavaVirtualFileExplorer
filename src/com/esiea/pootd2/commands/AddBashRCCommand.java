@@ -34,4 +34,8 @@ public class AddBashRCCommand extends Command{
         bashrc.saveLine(cmd);
         return "";
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 4d4b529f48490387c9297c734afe4d3c76b1ab1a
