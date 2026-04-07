@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Users\user\Desktop\Virtual File Explorer\.metadata\.plugins\org.eclipse.jdt.core
-1067094681.index
-4209722281.index
-1865797976.index
