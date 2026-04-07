@@ -1,9 +1,8 @@
 package com.esiea.pootd2.commands;
 
+import com.esiea.pootd2.models.FolderInode;
 import java.util.Arrays;
 import java.util.List;
-
-import com.esiea.pootd2.models.FolderInode;
 
 public class MakeDirectoryCommand extends Command {
     private final FolderInode currentFolder;
@@ -77,8 +76,4 @@ public class MakeDirectoryCommand extends Command {
         travelFolder.addSubInodes(newFolder);
         return successCommand;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 4d4b529f48490387c9297c734afe4d3c76b1ab1a

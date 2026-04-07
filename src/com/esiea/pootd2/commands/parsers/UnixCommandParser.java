@@ -1,14 +1,13 @@
 package com.esiea.pootd2.commands.parsers;
 
-import java.util.List;
-import java.util.Map;
-import java.util.function.Supplier;
+import com.esiea.pootd2.commands.*;
+import com.esiea.pootd2.models.FolderInode;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-
-import com.esiea.pootd2.commands.*;
-import com.esiea.pootd2.models.FolderInode;
+import java.util.List;
+import java.util.Map;
+import java.util.function.Supplier;
 
 public class UnixCommandParser implements ICommandParser {
     
@@ -17,10 +16,6 @@ public class UnixCommandParser implements ICommandParser {
     private FolderInode curFolder;
     private List<String> parsedCommand;
     private String arg1 = "";
-<<<<<<< HEAD
-=======
-
->>>>>>> 4d4b529f48490387c9297c734afe4d3c76b1ab1a
     /**
      * The constructor of the parser, initialise a map of all commands available
      */
@@ -96,9 +91,4 @@ public class UnixCommandParser implements ICommandParser {
             }
         }
     }
-<<<<<<< HEAD
 }
-=======
-
-}
->>>>>>> 4d4b529f48490387c9297c734afe4d3c76b1ab1a

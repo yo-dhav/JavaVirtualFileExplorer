@@ -1,8 +1,8 @@
 package com.esiea.pootd2.models;
 
-import java.util.Random;
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 public class FileInode extends Inode {
     
     private List<String> fileContent;
@@ -58,10 +58,6 @@ public class FileInode extends Inode {
             return null;
         }
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> 4d4b529f48490387c9297c734afe4d3c76b1ab1a
     /**
      * Get the whole file content
      * @return The whole file content as a string
@@ -77,11 +73,5 @@ public class FileInode extends Inode {
             }
             return result.toString().substring(0, result.length() - 1);
         }
-<<<<<<< HEAD
     }
 }
-=======
-
-    }
-}
->>>>>>> 4d4b529f48490387c9297c734afe4d3c76b1ab1a

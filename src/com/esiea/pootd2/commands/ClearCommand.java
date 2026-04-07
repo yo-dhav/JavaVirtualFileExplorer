@@ -1,8 +1,4 @@
-<<<<<<< HEAD
  package com.esiea.pootd2.commands;
-=======
-package com.esiea.pootd2.commands;
->>>>>>> 4d4b529f48490387c9297c734afe4d3c76b1ab1a
 
 public class ClearCommand extends Command {
 
